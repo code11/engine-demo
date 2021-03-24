@@ -1,0 +1,17 @@
+{
+ "name": "foobar",
+ "private": true,
+ "version": "1.0.0",
+ "scripts": {
+  "start": "NODE_ENV=development engine-service-web start",
+  "test": "engine-service-web test",
+  "build": "engine-service-web build"
+ },
+ "devDependencies": {
+  "@c11/engine.service-web": "4.0.0-alpha.45"
+ },
+ "dependencies": {
+  "react": "^17.0.1",
+  "react-dom": "^17.0.1"
+ }
+}
